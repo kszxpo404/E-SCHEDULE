@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "890846539385",
+    "firebase_url": "https://e-schedule-52eba.firebaseio.com",
+    "project_id": "e-schedule-52eba",
+    "storage_bucket": "e-schedule-52eba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890846539385:android:b00ccac20fdea593",
+        "android_client_info": {
+          "package_name": "com.e_schedule.e_schedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890846539385-jb97bsl5p7bvakf08gtnflfei054ki67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.e_schedule.e_schedule",
+            "certificate_hash": "A4D2AAC84A7160A48D2DA7299B2581FF6D3B82DC"
+          }
+        },
+        {
+          "client_id": "890846539385-8kqgu0e7c31acdpvdrkipr52atst68id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4SQrQsXB0zpIyScA2Irl7dAqLtTeVa_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890846539385-8kqgu0e7c31acdpvdrkipr52atst68id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

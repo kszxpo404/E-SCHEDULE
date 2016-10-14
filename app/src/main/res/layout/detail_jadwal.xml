@@ -1,0 +1,188 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    tools:context="com.e_schedule.e_schedule.fragments.fragment_detail_jadwal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp">
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Publikasi Oleh "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/oleh"
+                android:textSize="16sp"
+                android:background="@color/cardview_light_background" />
+
+            <TextView
+                android:text="Kepada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/untuk"
+                android:textSize="16sp"
+                android:background="@color/cardview_light_background"/>
+
+            <TextView
+                android:text="Acara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/acara"
+                android:textSize="16sp"
+                android:background="@color/cardview_light_background"/>
+
+            <TextView
+                android:text="tempat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tssdds"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tempat"
+                android:textSize="16sp"
+                android:background="@color/cardview_light_background"/>
+
+            <TextView
+                android:text="Alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alamat"
+                android:textSize="16sp"
+                android:background="@color/cardview_light_background"/>
+
+            <TextView
+                android:text="Tanggal Mulai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tgl_mulai"
+                android:textSize="16sp"
+                android:background="@color/cardview_light_background"/>
+
+            <TextView
+                android:text="Jam Mulai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/jam_mulai"
+                android:textSize="16sp"
+                android:background="@color/cardview_light_background"/>
+
+            <TextView
+                android:text="Tanggal Selesai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tgl_selesai"
+                android:textSize="16sp"
+                android:background="@color/cardview_light_background"/>
+
+            <TextView
+                android:text="Jam Selesai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView30"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/jam_selesai"
+                android:textSize="16sp"
+                android:background="@color/cardview_light_background"/>
+
+            <TextView
+                android:text="Sumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView26"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sumber"
+                android:textSize="16sp"
+                android:background="@color/cardview_light_background"/>
+
+            <TextView
+                android:text="Keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/keterangan"
+                android:textSize="16sp"
+                android:background="@color/cardview_light_background"/>
+
+            <TextView
+                android:text="Status Jadwal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView32"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/status_jadwal"
+                android:textSize="16sp"
+                android:background="@color/cardview_light_background"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
